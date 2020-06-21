@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline & Block Styling</title>
+  <style>
+    li {
+      display: inline;
+    }
+
+    li a{
+      padding-right: 20px;
+    }
+
+    img{
+      display: block;
+      margin: auto; /*It only works for block level elements*/
+    }
+
+    .box{
+      width: 32%;
+      box-sizing: border-box;
+      display:inline-block;
+      background:#f4f4f4;
+      padding:20px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <ul> <!--List is block level element-->
+    <li><a href="#">Techonology</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">Fashion</a></li>
+  </ul>
+
+  <br><br>
+
+  <!-- Images are Inline level elements -->
+  <img src="./images/lion.png" alt="My Image">
+  <!-- <img src="./images/lion.png" alt="My Image"> -->
+
+  <div class="box">
+  <h3>Heading</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius ullam ipsa amet officiis quas dignissimos? At harum consequatur veniam.</p>
+  </div>
+  
+  <div class="box">
+  <h3>Heading</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius ullam ipsa amet officiis quas dignissimos? At harum consequatur veniam.</p>
+  </div>
+
+  <div class="box">
+  <h3>Heading</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius ullam ipsa amet officiis quas dignissimos? At harum consequatur veniam.</p>
+  </div>
+
+</body>
+</html>
